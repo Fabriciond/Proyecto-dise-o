@@ -33,10 +33,10 @@ public class Main {
 
         tarjeta1.setId(12345);
         tarjeta1.setLimiteCredito(12000);
-        tarjeta1.setNumTarjeta(4568458736229658);
+        tarjeta1.setNumTarjeta(4579658);
 
         List<Periodo> periodos = new ArrayList();
-
+  
         Periodo mayoJunio = new Periodo();
 
         mayoJunio.setFechaInicio(Date.valueOf("2022-05-01"));
@@ -76,10 +76,10 @@ public class Main {
         System.out.println("----------Datos del cliente----------" + "\n"
                 + "Nombre: " + uuario1.getNombre() + "\n"
                 + "Correro Electronico: " + uuario1.getCorreo() + "\n"
-                + "Numero de telefono: " + uuario1.getCelular() + "\n"
-                + "ID: " + uuario1.getID() + "\n"
+                + "Numero de telefono: " + uuario1.getNumTelefono() + "\n"
+                + "ID: " + uuario1.getId() + "\n"
                 + "----------Datos de la tarjeta----------" + "\n"
-                + "ID de la tarjeta: " + uuario1.getTarjeta().getID() + "\n"
+                + "ID de la tarjeta: " + uuario1.getTarjeta().getId() + "\n"
                 + "Numero de tarjeta: " + uuario1.getTarjeta().getNumTarjeta() + "\n"
                 + "Limite de credito: " + uuario1.getTarjeta().getLimiteCredito() + "\n"
         );
