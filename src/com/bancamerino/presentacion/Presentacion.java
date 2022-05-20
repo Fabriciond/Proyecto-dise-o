@@ -17,7 +17,6 @@ public class Presentacion extends javax.swing.JFrame {
     public Presentacion() {
         initComponents();
         setLocationRelativeTo(null);
-        System.out.println("hola");
     }
 
     /**
